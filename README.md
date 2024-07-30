@@ -71,20 +71,7 @@ Response Example:
   "message": "user is authenticated"
 }
 
-3) Generate Token Endpoint
-
-URL: /generateToken
-Method: POST
-Description: get token ?.
-Request Example: none
-Response Example:
-{
-    "success": true,
-    "message": "Token fetched successfully",
-    "data": "73acXFpakZiUCh9GJCksKRcfTvV6t8fjyX8z8wIxEdeQi8MoGG"
-}
-
-4) Add todo Endpoint
+3) Add todo Endpoint
 
 URL: /todos
 Method: POST
@@ -100,7 +87,7 @@ Response Example:
     data: { id: 1 },
 }
 
-5) Edit todo Endpoint
+4) Edit todo Endpoint
 
 URL: /todos/:id
 Method: PUT
@@ -116,7 +103,7 @@ Response Example:
    "data": { id: 1 },
 }
 
-6) Get todo Endpoint
+5) Get todo Endpoint
 
 URL: /todos
 Method: GET
@@ -140,7 +127,7 @@ Response Example:
    ],
 }
 
-7) delete todo Endpoint
+6) delete todo Endpoint
 
 URL: /todos/:id
 Method: DELETE
